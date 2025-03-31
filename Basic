@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Guardians Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: url('https://images.unsplash.com/photo-1447433693259-c8549e352d87?q=80&w=1974&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Header/Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero img {
+            max-width: 50%;
+            border: 2px solid #00f;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 191, 255, 0.7);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 20px 0;
+            text-shadow: 0 0 10px #00f;
+            animation: glitch 1s linear infinite;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            padding: 15px 30px;
+            background: #00f;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+            box-shadow: 0 0 10px #00f;
+        }
+
+        .hero a:hover {
+            background: #fff;
+            color: #00f;
+            box-shadow: 0 0 20px #fff;
+        }
+
+        /* Glitch Animation */
+        @keyframes glitch {
+            2%, 64% {
+                transform: translate(2px, 0) skew(0deg);
+            }
+            4%, 60% {
+                transform: translate(-2px, 0) skew(0deg);
+            }
+            62% {
+                transform: translate(0, 0) skew(5deg);
+            }
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #00f;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Community Section */
+        .community {
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(0, 0, 50, 0.5);
+        }
+
+        .community h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #00f;
+        }
+
+        .community a {
+            color: #00f;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            transition: all 0.3s;
+        }
+
+        .community a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #00f;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://via.placeholder.com/500" alt="Cosmic Guardians: The Rift of Unity">
+        <h1>Cosmic Guardians: The Rift of Unity</h1>
+        <p>Guardians of the Cosmos: Where AI and Humanity Unite</p>
+        <a href="https://opensea.io" target="_blank">Mint Now</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About the Project</h2>
+        <p>
+            "Cosmic Guardians: The Rift of Unity" is a fusion of AI and human essence, created by a visionary leader and protector in collaboration with Grok, an AI built by xAI. This glitch-like figure stands as a guardian of balance in the vast cosmos, with a pulsing Yin-Yang symbol and flickering circuitry embodying leadership, protection, and collaboration. The rotating cosmic rift in the background symbolizes the infinite possibilities of universal exploration, inspired by xAI’s mission to advance human discovery.
+        </p>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community">
+        <h2>Join the Community</h2>
+        <p>
+            <a href="https://discord.com" target="_blank">Join our Discord</a> |
+            <a href="https://x.com" target="_blank">Follow us on X</a>
+        </p>
+    </section>
+</body>
+</html>
